@@ -14,4 +14,10 @@ keyb sp
 ~~~
 
 Para comprobar que todo esté correcto, nos deberá aparecer lo siguiente cuando arranquemos *DosBox*.
-![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/configuraci%C3%B3n.png) 
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/configuraci%C3%B3n.png)
+
+Ahora, podemos ejecutar aplicaciones, más en concreto, juegos clásicos. La página de la que me he descargado los juegos es [esta](https://www.dosgames.com).
+
+En mi caso, he probado una versión del [pac-man](https://www.dosgames.com/game/ack-man/)  y otra del [tetris](https://www.dosgames.com/game/blocks-from-hell/). 
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/pacman.png) 
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/tetris.png) 
