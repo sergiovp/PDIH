@@ -32,12 +32,14 @@ En lugar de compilar y enlazar manualmente, siguiendo el guión he implementado 
 
 Para añadir a la variable *PATH* el directorio *BIN* he añadido `set path=%path%;c:\bc\bin` nuevamente en el fichero `~/.dosbox/dosbox-0.74-3.conf`.
 
-![](q.jwfq)
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/path.png)
 
 #### 3. Crear el ejemplo “Hola mundo” en ensamblador, compilarlo y comprobar su funcionamiento. A continuación incluir un bucle para mostrar el mensaje 7 veces.
 
-Compilación y ejecución del programa [hola.asm](ksfw) 
+Compilación y ejecución del programa [hola.asm](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/sources/hola.asm) 
 
-En el caso del programa [hola_bucle.asm](kwjfw) lo compilaremos haciendo uso del scrip [compilar.bat]().
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/hola.png)
 
-![](q.jwfq)
+En el caso del programa [hola_bucle.asm](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/sources/hola_bucle.asm) lo compilaremos haciendo uso del scrip [compilar.bat]().
+
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/hola_bucle.png)
