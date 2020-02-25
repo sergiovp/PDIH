@@ -25,7 +25,7 @@ En mi caso, he probado una versión del [pac-man](https://www.dosgames.com/game/
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/pacman.png) 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/tetris.png)
 
-#### 2. Configurar el inicio de DOSBox para que monte en la unidad C: el directorio donde se encuentra el entorno de programación Borland C (que incluye las herramientas para compilar no sólo lenguaje C, sino también ensamblador). Añadir a la variable “PATH” de inicio el directorio “bin” donde se encuentra el ejecutable BC.EXE
+#### 2. Configurar el inicio de DOSBox para que monte en la unidad C: el directorio donde se encuentra el entorno de programación Borland C (que incluye las herramientas para compilar no sólo lenguaje C, sino también ensamblador). Añadir a la variable “PATH” de inicio el directorio “bin” donde se encuentra el ejecutable BC.EXE.
 
 Al tener ya montada en la unidad C: el contenido de un directorio de mi host, únicamente he tenido que añadir en dicho directorio lo relativo a *Borland*, con lo cual ya puedo compilar programas en ensamblador haciendo uso de *TASM.EXE y TLINK.EXE*.
 En lugar de compilar y enlazar manualmente, siguiendo el guión he implementado el script [compilar.bat](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/compilar.bat).
@@ -36,10 +36,10 @@ Para añadir a la variable *PATH* el directorio *BIN* he añadido `set path=%pat
 
 #### 3. Crear el ejemplo “Hola mundo” en ensamblador, compilarlo y comprobar su funcionamiento. A continuación incluir un bucle para mostrar el mensaje 7 veces.
 
-Compilación y ejecución del programa [hola.asm](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/sources/hola.asm) 
+Compilación y ejecución del programa [hola.asm](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/sources/hola.asm).
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/hola.png)
 
-En el caso del programa [hola_bucle.asm](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/sources/hola_bucle.asm) lo compilaremos haciendo uso del scrip [compilar.bat]().
+En el caso del programa [hola_bucle.asm](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/sources/hola_bucle.asm) lo compilaremos haciendo uso del scrip [compilar.bat](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/compilar.bat).
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/images/hola_bucle.png)
