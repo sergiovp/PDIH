@@ -28,8 +28,16 @@ En mi caso, he probado una versión del [pac-man](https://www.dosgames.com/game/
 #### 2. Configurar el inicio de DOSBox para que monte en la unidad C: el directorio donde se encuentra el entorno de programación Borland C (que incluye las herramientas para compilar no sólo lenguaje C, sino también ensamblador). Añadir a la variable “PATH” de inicio el directorio “bin” donde se encuentra el ejecutable BC.EXE
 
 Al tener ya montada en la unidad C: el contenido de un directorio de mi host, únicamente he tenido que añadir en dicho directorio lo relativo a *Borland*, con lo cual ya puedo compilar programas en ensamblador haciendo uso de *TASM.EXE y TLINK.EXE*.
-En lugar de compilar y enlazar manualmente, siguiendo el guión he implementado un script [compilar.bat]().
+En lugar de compilar y enlazar manualmente, siguiendo el guión he implementado el script [compilar.bat]().
 
 Para añadir a la variable *PATH* el directorio *BIN* he añadido `set path=%path%;c:\bc\bin` nuevamente en el fichero `~/.dosbox/dosbox-0.74-3.conf`.
 
+![](q.jwfq)
+
 #### 3. Crear el ejemplo “Hola mundo” en ensamblador, compilarlo y comprobar su funcionamiento. A continuación incluir un bucle para mostrar el mensaje 7 veces.
+
+Compilación y ejecución del programa [hola.asm](ksfw) 
+
+En el caso del programa [hola_bucle.asm](kwjfw) lo compilaremos haciendo uso del scrip [compilar.bat]().
+
+![](q.jwfq)
