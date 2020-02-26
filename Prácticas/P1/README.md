@@ -26,3 +26,19 @@ El fichero en cuestión es [ejer1.asm](https://github.com/sergiovp/PDIH/blob/mas
 
 
 #### 2. programa que use la función de interrupción de cambio de modo de vídeo (usar el modo gráfico 320x200 color) y dibujar un rectángulo blanco en pantalla; a continuación, mostrar varios pixels de diferentes colores dentro del rectángulo. Antes de terminar, hacer una pausa esperando la pulsación de una tecla, y restaurar el modo de vídeo de 80x25.
+
+El programa implementado es [ejer2.asm](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/sources/ejer2.asm).
+
+Antes de comenzar el ejercicio, he dibujado un pequeño esbozo de la posición en la que pondré el rectángulo y los puntos dentros de él.
+
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/images/esbozo.jpg)
+
+En cuanto a la implementación, para los puntos he llamado a la función `pixel` pasándole los puntos y el color del esbozo. Para el rectángulo, he implementado un bucle para cada línea.
+
+En definitiva, al ejecutar el programa nos mostrará un mensaje, al presionar cualquier tecla entraremos en modo gráfico y visualizaremos el rectángulo con los puntos hasta que pulsemos otra tecla y volvamos a modo texto.
+
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/images/ejer2_1.png)
+
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/images/ejer2_2.png)
+
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/images/ejer2_3.png)
