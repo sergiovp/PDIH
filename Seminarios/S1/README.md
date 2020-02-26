@@ -1,4 +1,6 @@
-## Ejercicios
+# Seminario 1. Programación de dispositivos a bajo nivel.
+
+## Ejercicios.
 
 #### 1. Instalar el software DOSBox y ejecutar aplicaciones de MS-DOS (p.ej. juegos clásicos).
 Para la instalación del software, he creado un pequeño [script](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S1/script_instalacion.sh) que descarga el paquete, lo descomprime e instala. También instala dependencias. *Únicamente funciona para distribuciones linux basadas en Debian*. Para ejecutarlo: 
