@@ -4,6 +4,7 @@ Como introducción a la práctica, implementaremos un programa que lance una int
 Dicho programa es [pausa.asm](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/sources/pausa.asm).
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/images/pausa.png)
+
 Como podemos ver, el programa hace una pausa hasta que pulsemos una tecla.
 
 Otro programa a modo de entrenamiento que podría implementar es [holapausa.asm](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P1/sources/holapausa.asm), el cual es una fusión del típico *"hola mundo"* con el programa implementado anteriormente.
