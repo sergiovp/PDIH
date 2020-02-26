@@ -29,6 +29,7 @@ pila ends
 datos segment 'data'
 		msg_informacion db 13,10,'Presione cualquier tecla, para entrar en modo texto 40x25...',13,10,'$'
 		msg_texto db 13,10,'Modo texto 40x25 activado, presiona cualquier tecla para volver...',13,10,'$'
+		msg_final db 13,10,'Se ha restablecido el modo texto',13,10,'$'
 datos ends
 
 
@@ -53,6 +54,10 @@ codigo segment 'code'
 		; Pausamos y volvemos a 80x25
 		pausa_tecla
 		modo_video TEXTO80x25C
+
+		mov dx,OFFSET msg_final
+		mov ah,9
+		int 21h
 
 		mov ax,4C00h
 		int 21h
