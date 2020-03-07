@@ -12,7 +12,7 @@ A modo de introducción, implementaré el típico hola mundo en C y lo compilar�
 Esto lo hicimos en el seminario anterior, si nos fijamos en la anterior imagen, podemos ejecutar *Borland C* sin problema.
 
 #### 2. Realizar un programa en lenguaje C que llame a la función de cambio de modo de vídeo y comprobar su funcionamiento.
-El programa implementado es [cambio_video.c](). Al programa se le debe pasar como argumento un número del 0 al 7, (los modos de vídeo posibles). 
+El programa implementado es [cambio_video.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S2/sources/cambio_video.c). Al programa se le debe pasar como argumento un número del 0 al 7, (los modos de vídeo posibles). 
 
 + Si se le pasa un número mayor a 7, se truncará a 0.
 + Si no se le pasa ningún parámetro no se ejecutará.
