@@ -37,5 +37,6 @@ cambio_video.exe 3
 #### 3. Realizar un programa en lenguaje C que llame a la función de interrupción correspondiente a la lectura de caracteres desde teclado. Ejecutarlo para leer pulsaciones de teclas y mostrarlas por pantalla usando otra función de interrupción.
 El programa implementado es [pulsacion_tecla.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S2/sources/pulsacion_tecla.c).
 Simplemente tiene un bucle para ir leyendo teclas y mostrándolas mientras no pulsemos la tecla 'q'.
+Para mostrarlas, hacemos uso de la función `mi_putchar`.
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S2/images/pulsa.png)
