@@ -15,15 +15,24 @@ int get_caracter(void) {
     return caracter;
 }
 
+void mi_putchar(char c){
+    union REGS inregs, outregs;
+
+	inregs.h.ah = 2;
+	inregs.h.dl = c;
+
+	int86(0x21, &inregs, &outregs);
+}
+
 int main() {
 
     char tecla;
 
-    printf("Pulsa una tecla. Pulsa 'q' para terminar\n");
-
     do {
+        printf("\nPulsa una tecla. Pulsa 'q' para terminar: ");
         tecla = get_caracter();
-        printf("\nLa tecla pulsada es: <%c>\n", tecla);
+        printf("\nLa tecla pulsada es: ");
+        mi_putchar(tecla);
     } while (tecla != 'q');
 
     return 0;
