@@ -42,7 +42,8 @@ Para comprobar que las funciones están bien implementadas, se pueden llamar des
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/setvideomode2.png)
 
 ##### Función getvideomode
-
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/getvideomode1.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/getvideomode2.png)
 
 
 ##### Función textcolor
