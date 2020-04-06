@@ -57,7 +57,7 @@ Para comprobar que las funciones están bien implementadas, se pueden llamar des
 ##### Función clrscr
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/clrscr1.png)
-![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/clrscr12.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/clrscr2.png)
 
 ##### Función cputchar
 
