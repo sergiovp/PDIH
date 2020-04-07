@@ -60,7 +60,10 @@ Para comprobar que las funciones están bien implementadas, se pueden llamar des
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/clrscr2.png)
 
 ##### Función cputchar
-
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/cputchar1.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/cputchar2.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/cputchar3.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/cputchar4.png)
 
 
 ##### Función getche
