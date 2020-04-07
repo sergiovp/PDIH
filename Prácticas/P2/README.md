@@ -47,11 +47,11 @@ Para comprobar que las funciones están bien implementadas, se pueden llamar des
 
 
 ##### Función textcolor
-
+Ver la función `cputchar`.
 
 
 ##### Función textbackground
-
+Ver la función `cputchar`.
 
 
 ##### Función clrscr
