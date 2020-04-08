@@ -24,7 +24,7 @@ Como ejercicios adicionales implementaremos:
 + Un programa que establezca modo gráfico VGA para crear dibujos sencillos en pantalla.
 
 El fichero en el que he implementado las funciones es [velalib.c](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/sources/velalib.c).
-Para comprobar que las funciones están bien implementadas, se pueden llamar desde el `main` y hacer uso de la función `mi_pausa`. La cual esperará hasta que no introduzcamos un carácter por teclado.
+Dicho fichero también dispone de un pequeño `main` que prueba el correcto funcionamiento de la biblioteca.
 
 ##### Función gotoxy
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/gotoxy.png)
