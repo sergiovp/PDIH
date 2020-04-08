@@ -144,29 +144,30 @@ char getche(void) {
     return outregs.h.al;
 }
 
-void rectangulo_texto(int s_izq, int inf_der) {
+void rectangulo_texto(int x1, int y1, int x2, int y2) {
     union REGS inregs, outregs;
     
     clrscr();
 
     inregs.h.ah = 0x06;
-    inregs.h.al = 10;
-    inregs.h.ch = 0;
-    inregs.h.cl = 0;
+    inregs.h.al = 0;
+    inregs.h.ch = x1;
+    inregs.h.cl = y1;
 
-    //inregs.h.bh = 2;
+    textcolor(3);
+    textbackground(3);
+    inregs.h.bh = (BACK_COLOR << 4) | TEXT_COLOR;
 
-    inregs.h.dh = 1;
-    inregs.h.dl = 30;
+    inregs.h.dh = x2;
+    inregs.h.dl = y2;
 
     int86(0x10, &inregs, &outregs);
 
-    int86(0x10, &inregs, &outregs);
 }
 
 int main() {
 
-    /*printf("\nCursor invisible: ");
+    printf("\nCursor invisible: ");
    	setcursortype(0);
    	mi_pausa();
     
@@ -202,9 +203,9 @@ int main() {
     textcolor(7);
     textbackground(0);
     clrscr();
-    gotoxy(0, 0);*/
-
-    rectangulo_texto(2, 6);
+    gotoxy(0, 0);
+    
+    rectangulo_texto(5, 35, 10, 35);
 
     return 0;
 }
