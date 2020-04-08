@@ -23,7 +23,7 @@ Como ejercicios adicionales implementaremos:
 + Una función que permita dibujar un recuadro en la pantalla en modo texto. Recibirá como parámetros las coordenadas superior izquierda e inferior derecha del recuadro, el color de primer plano y el color de fondo.
 + Un programa que establezca modo gráfico VGA para crear dibujos sencillos en pantalla.
 
-El fichero en el que he implementado las funciones es [velalib.c](![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/sources/velalib.c)).
+El fichero en el que he implementado las funciones es [velalib.c](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/sources/velalib.c).
 Para comprobar que las funciones están bien implementadas, se pueden llamar desde el `main` y hacer uso de la función `mi_pausa`. La cual esperará hasta que no introduzcamos un carácter por teclado.
 
 ##### Función gotoxy
