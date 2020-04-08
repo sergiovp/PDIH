@@ -105,16 +105,18 @@ void clrscr(void) {
     union REGS inregs, outregs;
 
     inregs.h.ah = 0x06;
-    inregs.h.al = 20;
+    inregs.h.al = 0;
     inregs.h.ch = 0;
     inregs.h.cl = 0;
 
     inregs.h.bh = (BACK_COLOR << 4) | TEXT_COLOR;
 
-    inregs.h.dh = 60;
-    inregs.h.dl = 60;
+    inregs.h.dh = 100;
+    inregs.h.dl = 100;
 
     int86(0x10, &inregs, &outregs);
+
+    gotoxy(0, 0);
 }
 
 /* Escribe un carácter en pantalla con el color indicado actualmente */
@@ -142,9 +144,29 @@ char getche(void) {
     return outregs.h.al;
 }
 
+void rectangulo_texto(int s_izq, int inf_der) {
+    union REGS inregs, outregs;
+    
+    clrscr();
+
+    inregs.h.ah = 0x06;
+    inregs.h.al = 10;
+    inregs.h.ch = 0;
+    inregs.h.cl = 0;
+
+    //inregs.h.bh = 2;
+
+    inregs.h.dh = 1;
+    inregs.h.dl = 30;
+
+    int86(0x10, &inregs, &outregs);
+
+    int86(0x10, &inregs, &outregs);
+}
+
 int main() {
 
-    printf("\nCursor invisible: ");
+    /*printf("\nCursor invisible: ");
    	setcursortype(0);
    	mi_pausa();
     
@@ -180,7 +202,9 @@ int main() {
     textcolor(7);
     textbackground(0);
     clrscr();
-    gotoxy(0, 0);
+    gotoxy(0, 0);*/
+
+    rectangulo_texto(2, 6);
 
     return 0;
 }
