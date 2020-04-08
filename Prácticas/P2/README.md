@@ -76,9 +76,13 @@ Ver la función `cputchar`.
 
 La implementación de dichas funciones también se encuentran en el fichero [velalib.c](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/sources/velalib.c).
 
-##### Función para dibujar rectángulo en modo texto
+##### Función para dibujar rectángulo en modo texto.
 En este caso, tenemos la función `rectangulo_texto`. Como resultado, podemos pasarle como parámetro distintas coordenadas y se nos pintará el rectángulo.
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional1-1.png)
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional1-2.png)
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional1-3.png)
+
+##### Función que entre en modo gráfico y dibuje algo.
+Para este ejercicio, tenemos la función `pixel`, la cual pintará un pixel en las coordenadas pasadas.
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional2-1.png)
