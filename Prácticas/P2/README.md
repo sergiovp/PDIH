@@ -69,3 +69,16 @@ Ver la función `cputchar`.
 ##### Función getche
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/getche1.png)
+
+---
+
+### Ejercicios adicionales
+
+La implementación de dichas funciones también se encuentran en el fichero [velalib.c](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/sources/velalib.c).
+
+##### Función para dibujar rectángulo en modo texto
+En este caso, tenemos la función `rectangulo_texto`. Como resultado, podemos pasarle como parámetro distintas coordenadas y se nos pintará el rectángulo.
+
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional1-1.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional1-2.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P2/images/opcional1-3.png)
