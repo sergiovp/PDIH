@@ -162,10 +162,23 @@ void rectangulo_texto(int x1, int y1, int x2, int y2) {
     inregs.h.dl = y2;
 
     int86(0x10, &inregs, &outregs);
+}
 
+void pixel(int x, int y, int color) {
+   union REGS inregs, outregs;
+
+   inregs.x.cx = x;
+   inregs.x.dx = y;
+   inregs.h.al = color;
+
+   inregs.h.ah = 0x0C;
+
+   int86(0x10, &inregs, &outregs);
 }
 
 int main() {
+
+    int i;
 
     printf("\nCursor invisible: ");
    	setcursortype(0);
@@ -206,6 +219,22 @@ int main() {
     gotoxy(0, 0);
     
     rectangulo_texto(5, 35, 10, 35);
+
+    mi_pausa();
+
+    setvideomode(MODO_VIDEO);
+
+    pixel(10, 40, 0);
+    pixel(10, 50, 1);
+    pixel(15, 60, 2);
+    pixel(20, 70, 3);
+
+    for(i = 0; i < 1000; i++){
+        pixel(i, i, i % 4);
+    }
+
+    mi_pausa();
+    setvideomode(MODO_TEXTO);
 
     return 0;
 }
