@@ -26,12 +26,51 @@ Cabe destacar, que para evitar problemas de permisos a la hora de reproducir aud
 setWavPlayer('/usr/bin/celluloid')
 ~~~
 
-Tras esto, podemos empezar a realizar la práctica.
+Destacar que en [sounds](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/) tenemos los audios con los que trabajaremos la práctica, y que en [sources](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/practica_sonido.R) tenemos el script en R.
 
-Deberemos crear un script en *R* que realice las siguientes acciones:
+Tras esto, podemos empezar a realizar la práctica.
 
 ### 1. Leer dos ficheros de sonido (WAV o MP3) de unos pocos segundos de duración cada uno
 
-Para ello, utilizaremos los audios incorporados [aquí](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/).
+Usaremos los audios [perro.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/perro.wav) y [gato.mp3](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/gato.mp3).
 
-En concreto, podemos utilizar [gato.mp3](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/gato.mp3) y [perro.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/perro.wav).
+~~~
+perro <- readWave('../sounds/perro.wav')
+perro
+listen(perro)
+
+gato <- readMP3('../sounds/gato.mp3')
+gato
+listen(gato)
+~~~
+
+La salida será la información sobre cada fichero y la reproducción de ambos:
+~~~
+> perro <- readWave('../sounds/perro.wav')
+> perro
+
+Wave Object
+	Number of Samples:      159732
+	Duration (seconds):     3.62
+	Samplingrate (Hertz):   44100
+	Channels (Mono/Stereo): Stereo
+	PCM (integer format):   TRUE
+	Bit (8/16/24/32/64):    16 
+
+> listen(perro)
+~~~
+
+~~~
+> gato <- readMP3('../sounds/gato.mp3')
+> gato
+
+Wave Object
+	Number of Samples:      393984
+	Duration (seconds):     8.93
+	Samplingrate (Hertz):   44100
+	Channels (Mono/Stereo): Stereo
+	PCM (integer format):   TRUE
+	Bit (8/16/24/32/64):    16 
+
+> listen(gato)
+~~~
