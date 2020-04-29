@@ -106,7 +106,7 @@ str(perro)
 ~~~
 Obteniendo las siguientes salidas:
 
-**Gato*
+**Gato**
 ~~~
 > str(gato)
 Formal class 'Wave' [package "tuneR"] with 6 slots
@@ -162,20 +162,21 @@ Hacemos uso de la función `writeWave`.
 writeWave(filtro_gato_y_perro, file.path("../sounds/mezcla.wav"))
 ~~~
 
-El fichero es [mezcla.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/perro.wav) y [gato.mp3](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/mezcla.wav)
+El fichero es [mezcla.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/mezcla.wav).
 
 ### 8. Cargar un nuevo archivo de sonido, aplicarle eco y a continuación darle la vuelta al sonido. Almacenar la señal obtenida como un fichero WAV denominado “alreves.wav”.
 
-Para ello, usaremos el sonido [oveja.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/perro.wav) y [gato.mp3](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/oveja.wav) y las funciones `echo` y `revw`.
+Para ello, usaremos el sonido [oveja.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/oveja.wav) y las funciones `echo` y `revw`.
 
 ~~~
-ovejaECO <- echo(oveja, f = 22050, amp = c(0.8, 0.4, 0.2), delay = c(1, 2, 3), output = "Wave")
+oveja <- readWave('../sounds/oveja.wav')
 
+ovejaECO <- echo(oveja, f = 22050, amp = c(0.8, 0.4, 0.2), delay = c(1, 2, 3), output = "Wave")
 ovejaECO@left <- 1000 * ovejaECO@left
 
 ovejaECOalreves <- revw(ovejaECO, output="Wave")
 ~~~
 
-Si nos fijamos en la segunda línea, estamos multiplicando las muestras para aumentar la amplitud, ya que al meterle el eco las muestras pasan a tener valores muy pequeños y a la hora de guardar los sonidos no se escucharían.
+Si nos fijamos en la tercera línea, estamos multiplicando las muestras para aumentar la amplitud, ya que al meterle el eco las muestras pasan a tener valores muy pequeños y a la hora de guardar los sonidos, estos no se escucharían.
 
-Por último, al igual que en el ejercicio anterior, guardamos el sonido modificado como [alreves.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/perro.wav).
+Por último, al igual que en el ejercicio anterior, guardamos el sonido modificado como [alreves.wav](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/alreves.wav).
