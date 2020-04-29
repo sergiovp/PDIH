@@ -26,7 +26,7 @@ Cabe destacar, que para evitar problemas de permisos a la hora de reproducir aud
 setWavPlayer('/usr/bin/celluloid')
 ~~~
 
-Destacar que en [sounds](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/) tenemos los audios con los que trabajaremos la práctica, y que en [sources](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/practica_sonido.R) tenemos el script en R.
+Destacar que en [sounds](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/sounds/) tenemos los audios con los que trabajaremos la práctica, y que en [sources](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P4/sources/practica_sonido.R) tenemos el script en R.
 
 Tras esto, podemos empezar a realizar la práctica.
 
@@ -88,12 +88,14 @@ plot(extractWave(gato, from = 1, to = length(gato)))
 Originando la siguiente salida:
 
 **Perro**
+
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/images/onda_perro.png)
 
 **Gato**
+
 ![](https://github.com/sergiovp/PDIH/blob/master/Prácticas/P4/images/onda_gato.png)
 
-Como podemos ver, se nos especifican ambos canales, ya que es sonido estéreo.
+Como podemos ver hay dos canales, esto es debido a que es sonido estéreo.
 
 ### 3. Obtener la información de las cabeceras de ambos sonidos.
 
