@@ -8,7 +8,7 @@ En este pequeña presentación, expliqué brevemente qué es la visión por comp
 
 ![portada](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/P1.png)
 
-La visión por computador es la disciplina que incluye métodos para adquirir, proesar, analizar y comprender las imágenes del mundo real con el fin de producit información numérica para que puedan ser tratados por un ordenador.
+La visión por computador es la disciplina que incluye métodos para adquirir, procesar, analizar y comprender las imágenes del mundo real con el fin de producir información numérica para que puedan ser tratados por un ordenador.
 
 A modo de ejemplo, nos podríamos preguntar **¿qué ocurre cuando un humano ve una imagen?**
 La respuesta es sencilla, éste será capaz de reconocer caras de personas, distitos objetos, el número de coches que ha captado la imagen y un largo etcétera. Pues bien, la visión por computador permite a los ordenadores ver y procesar estos datos visuales tal y como los hacemos los humanos.
@@ -30,19 +30,23 @@ Hay infinidad de utilidades, entre las que podríamos destacar:
 + Ámbito médico. Mediante patrones y características se podrían detectar enfermedades.
 
 ![OpenCV](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/P4.png)
-Este tipo de cosas se podrían implementar utilizando **OpenCV** (Open Computer Vision), es una biblioteca opensource. El código lo podemos encontrar [aquí](https://github.com/opencv/opencv). Inicialmente fue desarrollada por Intel en el año 99 y actualmente se la sigue considenrando la biblioteca más popular de visión por computador.
+
+**OpenCV** (Open Computer Vision), es una biblioteca opensource. El código lo podemos encontrar [aquí](https://github.com/opencv/opencv). Inicialmente fue desarrollada por Intel en el año 99 y actualmente se la sigue considenrando la biblioteca más popular de visión por computador.
 
 ![Ejemplos](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/P5.png)
 
 A modo de ejemplo, se han implementado tres pequeños programas en phyton.
 
 En [emeplo1.py]() podemos ver cómo el programa detecta a las personas del vídeo en movimiento.
+
 ![Ejemplos1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/gente1.png)
 
 En [ejemplo2.py]() se abrirá la cam de nuestro ordenador y se detectará la cara.
+
 ![Ejemplos1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/yo1.png)
 
 En [ejemplo2.py]() a parte de detectar la cara, también se detectará los ojos.
+
 ![Ejemplos1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/yo2.png)
 
 En estos dos últimos ejemplos he utilizado los clasificadores que nos proporciona OpenCV, los cuales se pueden encontrar [aquí](https://github.com/opencv/opencv/tree/master/data).
