@@ -37,22 +37,25 @@ Hay infinidad de utilidades, entre las que podríamos destacar:
 
 A modo de ejemplo, se han implementado tres pequeños programas en phyton.
 
-En [emeplo1.py]() podemos ver cómo el programa detecta a las personas del vídeo en movimiento.
+En [emeplo1.py](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/sources/ejemplo1.py) podemos ver cómo el programa detecta a las personas del vídeo en movimiento.
 
-![Ejemplos1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/gente1.png)
+![Ejemplo1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/gente1.png)
 
-En [ejemplo2.py]() se abrirá la cam de nuestro ordenador y se detectará la cara.
+En [ejemplo2.py](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/sources/ejemplo2.py) se abrirá la cam de nuestro ordenador y se detectará la cara.
 
-![Ejemplos1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/yo1.png)
+![Ejemplo2](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/yo1.png)
 
-En [ejemplo2.py]() a parte de detectar la cara, también se detectará los ojos.
+En [ejemplo3.py](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/sources/ejemplo3.py) a parte de detectar la cara, también se detectarán los ojos.
 
-![Ejemplos1](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/yo2.png)
+![Ejemplos3](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/yo2.png)
 
 En estos dos últimos ejemplos he utilizado los clasificadores que nos proporciona OpenCV, los cuales se pueden encontrar [aquí](https://github.com/opencv/opencv/tree/master/data).
 
 A modo de curiosidad, destacar que si quieres pasar desarpecibido en algún momento frente a técnicas de este tipo, te recomiendo que leas la siguiente noticia.
-![Ejemplos1]()
+
+![curiosidad](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/p6.png)
+
+[FUENTE](https://www.microsiervos.com/archivo/ia/futuro-jerseys-sistema-antagonista-reconocimiento-objetos.html).
 
 Webgrafía:
 
