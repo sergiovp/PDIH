@@ -53,7 +53,7 @@ En estos dos últimos ejemplos he utilizado los clasificadores que nos proporcio
 
 A modo de curiosidad, destacar que si quieres pasar desarpecibido en algún momento frente a técnicas de este tipo, te recomiendo que leas la siguiente noticia.
 
-![curiosidad](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/p6.png)
+![curiosidad](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/P6.png)
 
 [FUENTE](https://www.microsiervos.com/archivo/ia/futuro-jerseys-sistema-antagonista-reconocimiento-objetos.html).
 
