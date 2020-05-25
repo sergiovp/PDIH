@@ -35,7 +35,7 @@ Hay infinidad de utilidades, entre las que podríamos destacar:
 
 ![Ejemplos](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/images/P5.png)
 
-A modo de ejemplo, se han implementado tres pequeños programas en phyton.
+A modo de ejemplo, se han implementado tres pequeños programas en phyton. (Como requisito para poder ejecutarlos, debemos tener instalado python3 y OpenCV. Podemos consultar más información [aquí](https://docs.opencv.org/3.4/da/df6/tutorial_py_table_of_contents_setup.html)).
 
 En [emeplo1.py](https://github.com/sergiovp/PDIH/blob/master/Exposici%C3%B3n/sources/ejemplo1.py) podemos ver cómo el programa detecta a las personas del vídeo en movimiento.
 
