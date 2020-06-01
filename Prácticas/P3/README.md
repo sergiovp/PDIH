@@ -12,10 +12,6 @@ Las demos las podemos encontrar en formato gif en [demos](https://github.com/ser
 
 ### 1. Implementar el programa de parpadeo de LED para que encienda y apague alternativamente tres LEDs (uno rojo, otro amarillo y otro verde), conectados a las salidas digitales 11, 12 y 13 del Arduino, a un intervalo de 1.5 segundos.
 
-Como resultado, el circuito implementado es el siguiente:
-
-![circuito](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/im%C3%A1genes/Ejercicio1.png)
-
-La demo de su funcionamiento:
+La demo del funcionamiento:
 
 ![demo](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/demos/ejercicio1.gif)
