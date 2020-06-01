@@ -6,7 +6,7 @@ Los circuitos serán exportados en formato `.brd` y se pueden encontrar en [circ
 
 En [imágenes](https://github.com/sergiovp/PDIH/tree/master/Pr%C3%A1cticas/P3/im%C3%A1genes) podemos encontrar las capturas de pantalla de los circuitos.
 
-Las demos las podemos encontrar en formato gif en [demos](https://github.com/sergiovp/PDIH/tree/master/Pr%C3%A1cticas/P3/demos).
+Las demos las podemos encontrar en [demos](https://github.com/sergiovp/PDIH/tree/master/Pr%C3%A1cticas/P3/demos).
 
 ## Ejercicios.
 
@@ -15,3 +15,9 @@ Las demos las podemos encontrar en formato gif en [demos](https://github.com/ser
 La demo del funcionamiento:
 
 ![demo](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/demos/ejercicio1.gif)
+
+### 2. Partir del programa de parpadeo de LEDs anterior y ampliarlo con las modificaciones necesarias para que se encienda el LED rojo solo cuando se pulse un interruptor conectado a la entrada digital 7, y en ese momento se apaguen los LEDs amarillo y verde.
+
+La demo del funcionamiento:
+
+![demo](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/demos/ejercicio2.gif)
