@@ -19,3 +19,9 @@ Empezaremos comprobando el funcionamiento de los programas de ejemplo que encont
 El [ejemplo1.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/ejemplo1.c) es un pequeño programa el cual mostrará una cadena de texto en la terminal como podemos ver a continuación:
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo1.png)
+
+En el [ejemplo2.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/ejemplo2.c) mostramos una ventana en la terminal, con sus marcos y un color de fondo.
+
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo2_1.png)
+
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo2_2.png)
