@@ -24,10 +24,18 @@ La demo del funcionamiento:
 
 El enlace compartido al circuito es [este](https://www.tinkercad.com/things/dG7PXya7sA5-ejercicio1/editel?sharecode=0gO6wnT7W62K-Uc-2KIYXJ-aItQUCtgD0k-XctJYt-E).
 
-### Ejercicio adicional. Secuencia de LEDs, encendiendo y apagando 4 LEDs secuencialmente, de forma similar a las lucecitas de "El coche fantástico".
+### Ejercicio adicional 1. Secuencia de LEDs, encendiendo y apagando 4 LEDs secuencialmente, de forma similar a las lucecitas de "El coche fantástico".
 
 La demo del funcionamiento:
 
 ![demo](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/demos/coche_fantastico.gif)
 
 El enlace compartido al circuito es [este](https://www.tinkercad.com/things/1RSxznbkmQZ-shiny-wluff/editel?tenant=circuits?sharecode=L5kYmeROPXLqH8lJ9CBvYehR0cu_eQMO1dDp4fLu_9M).
+
+### Ejercicio adicional 2. Alarma por detección de presencia.
+
+La demo del funcionamiento:
+
+![demo](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/demos/presencia.gif)
+
+El enlace compartido al circuito es [este](https://www.tinkercad.com/things/4Z1XLiwYSRP-swanky-snaget/editel?tenant=circuits?sharecode=u0ZpO1fnIadfYvb1-q2T_YAAb9Ca7NXpWCmpFSLVvAg).
