@@ -21,3 +21,7 @@ La demo del funcionamiento:
 La demo del funcionamiento:
 
 ![demo](https://github.com/sergiovp/PDIH/blob/master/Pr%C3%A1cticas/P3/demos/ejercicio2.gif)
+
+El enlace compartido al circuito es [este](https://www.tinkercad.com/things/dG7PXya7sA5-ejercicio1/editel?sharecode=0gO6wnT7W62K-Uc-2KIYXJ-aItQUCtgD0k-XctJYt-E).
+
+### Ejercicio adicional. Secuencia de LEDs, encendiendo y apagando 4 LEDs secuencialmente, de forma similar a las lucecitas de "El coche fantástico".
