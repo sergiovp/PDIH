@@ -16,9 +16,13 @@ gcc programa.c -o programa -lncurses
 
 Empezaremos comprobando el funcionamiento de los programas de ejemplo que encontramos en el seminario.
 
+### Ejemplo 1.
+
 El [ejemplo1.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/ejemplo1.c) es un pequeño programa el cual mostrará una cadena de texto en la terminal como podemos ver a continuación:
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo1.png)
+
+### Ejemplo 2.
 
 En el [ejemplo2.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/ejemplo2.c) mostramos una ventana en la terminal, con sus marcos y un color de fondo.
 
