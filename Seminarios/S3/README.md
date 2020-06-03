@@ -35,4 +35,4 @@ En el [ejemplo2.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/so
 
 En el [ejemplo3.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/ejemplo3.c) moveremos una "pelotita" (carácter 'o') en la pantalla.
 
-![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo3.png)
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo3.gif)
