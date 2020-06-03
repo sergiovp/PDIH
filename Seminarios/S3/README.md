@@ -42,3 +42,9 @@ En el [ejemplo3.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/so
 Como ejercicio a resolver, se propone crear un juego sencillo tipo pong.
 
 Para la realización, me he basado en el pong implementado por el usuario [vicentebolea](https://github.com/vicentebolea) que podemos ver en su [repositorio](https://github.com/vicentebolea/Pong-curses).
+
+El fichero en cuestión es [pong.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/pong.c).
+
+La demo la podemos ver a continuación:
+
+![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/pong.gif)
