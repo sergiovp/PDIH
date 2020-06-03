@@ -36,3 +36,7 @@ En el [ejemplo2.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/so
 En el [ejemplo3.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/sources/ejemplo3.c) moveremos una "pelotita" (carácter 'o') en la pantalla.
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/images/ejemplo3.gif)
+
+### Ejercicio.
+
+Como ejercicio a resolver, se propone crear un juego sencillo tipo pong. Para la realización, me he basado en el pong implementado por @vicentebolea que podemos ver en su [repositorio](https://github.com/vicentebolea/Pong-curses).
