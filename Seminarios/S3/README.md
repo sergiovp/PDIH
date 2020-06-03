@@ -39,4 +39,6 @@ En el [ejemplo3.c](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S3/so
 
 ### Ejercicio.
 
-Como ejercicio a resolver, se propone crear un juego sencillo tipo pong. Para la realización, me he basado en el pong implementado por @vicentebolea que podemos ver en su [repositorio](https://github.com/vicentebolea/Pong-curses).
+Como ejercicio a resolver, se propone crear un juego sencillo tipo pong.
+
+Para la realización, me he basado en el pong implementado por el usuario [vicentebolea](https://github.com/vicentebolea) que podemos ver en su [repositorio](https://github.com/vicentebolea/Pong-curses).
