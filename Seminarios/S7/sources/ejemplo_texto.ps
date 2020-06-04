@@ -1,0 +1,26 @@
+%!
+
+% Ejemplo en el que escribiremos texto
+
+/Times-Roman findfont                   % Get the basic font
+30 scalefont                            % Scale the font to 40 points
+setfont                                 % Make it the current font 
+
+newpath                                 % Start a new path
+
+220 700 moveto                          % Lower left corner of text at (180, 700) 
+(Ejemplo de PS) show                    % Typeset "Ejemplo de PS"
+
+1 0 0 setrgbcolor
+25 660 moveto 
+(Perifericos y Dispositivos de Interfaz Humana) show
+
+
+/Times-Roman findfont                   % Get the basic font
+20 scalefont                            % Scale the font to 40 points
+setfont 
+220 600 moveto
+0.5 0 0.5 setrgbcolor
+(Sergio Vela Pelegrina) show
+
+showpage
