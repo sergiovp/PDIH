@@ -20,6 +20,6 @@ El fichero con el código es [ejemplo_texto.ps](https://github.com/sergiovp/PDIH
 
 En este ejemplo crearemos varias figuras, (cuadrados y círculos), cada uno de ellos con propiedades distintas (color, relleno, grosor).
 
-El fichero con el código es [ejemplo_gifuras.ps](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S7/sources/ejemplo_figuras.ps) y el resultado obtenido es el siguiente:
+El fichero con el código es [ejemplo_figuras.ps](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S7/sources/ejemplo_figuras.ps) y el resultado obtenido es el siguiente:
 
 ![](https://github.com/sergiovp/PDIH/blob/master/Seminarios/S7/images/ejemplo_figuras.png)
