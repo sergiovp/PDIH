@@ -20,4 +20,9 @@ Repositorio dedicado para las prácticas, seminarios y exposición de la asignat
 
 #### Exposición.
 El tema de la exposición fue sobre el uso de la biblioteca **OpenCV** para **visión por computador**.
+
 hola
+
+Alvarito
+
+jaja
